@@ -15,6 +15,7 @@ public class EmployeeController {
 	@RequestMapping("/employees")
 	 public List<Employee> getEmployees() {
 		 List<Employee> empList= new ArrayList<Employee>();
+		 System.out.println("listing all the employee details");
 		 empList.add(new Employee(10, 100,"Robert3"));
 		 empList.add(new Employee(10,200,"Albert3"));
 		 empList.add(new Employee(20,300,"Gini3"));
